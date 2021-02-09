@@ -24,6 +24,7 @@ h1 {
 main {
     width: 90%;
     max-width: 600px;
+    position: relative;
 }
 
 
