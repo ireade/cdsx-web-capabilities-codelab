@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>SSA CDS Extended 2021 - Web Capabilities Codelab</title>
+
+    <meta name="description" content="A codelab demonstrating some of the awesome new capabilities on the web!">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="manifest.webmanifest">
+
+    <link rel="icon" sizes="192x192" href="/images/icon-192x192.png">
+
+    <meta name="theme-color" content="#4c8bf5">
+    <meta property="og:title" content="SSA CDS Extended 2021 - Web Capabilities Codelab">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://airhorner.com/images/touch/android-launchericon-192-192.png">
+    <meta property="og:url" content="https://airhorner.com/">
+    <meta property="og:description" content="A codelab demonstrating some of the awesome new capabilities on the web!">
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+  </head>
+  <body>
+    
+    <div>
+      Hello
+    </div>
+
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' })
+          .then(function(registration) {
+                console.log('Service Worker Registered');
+          });
+
+        navigator.serviceWorker.ready.then(function(registration) {
+           console.log('Service Worker Ready');
+        });
+      
+    </script>
+  </body>
+</html>
