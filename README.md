@@ -1,6 +1,6 @@
 # SSA CDS Extended Web Capabilities Codelab
 
-[](./images/cdsx.png)
+![](./images/cdsx.png)
 
 The codelab demonstrates the following new web capabilities:
 
