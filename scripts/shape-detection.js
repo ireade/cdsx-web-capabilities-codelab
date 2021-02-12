@@ -32,5 +32,4 @@ const detectFaces = async (img) => {
 
 }
 
-
-detectFaces( document.getElementsByTagName('img')[0] )
+//detectFaces( document.getElementsByTagName('img')[0] )
